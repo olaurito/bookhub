@@ -1,0 +1,17 @@
+{
+  "name": "bookhub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass assets/scss/style.scss assets/css/style.css",
+    "sass-watch": "node-sass -watch --update assets/scss/style.scss assets/css/style.css",
+    "sass-watch-min": "node-sass --output-style compressed -watch assets/scss/style.scss assets/css/style.min.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
